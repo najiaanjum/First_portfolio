@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -8,22 +9,45 @@ h1{
 .orange_color{
     color:orange;
 }
-.half_width{
+
+section{
     display: flex;
-    width: 50%;
-    padding: 10px;
+    justify-content: space-between;
+    
+}
+.background_image{
+    background-image: url(images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.another_background_image{
+     background-image: url(images/background_image_2.jpg); 
+     background-repeat: no-repeat;
+    background-size: cover; 
+}
+.half_width {
+   
+    /* width: 50%; */
+    padding: 50px;
+
 }
 .half_width img{
-    width: 300px;
+    width: 450px;
     padding-top: 50px;
+    
    
 }
 .hire{
     text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
+    background-image: linear-gradient(tomato, rgb(190, 93, 122));
     padding: 10px 40px;
     border-radius: 4px;
     color: white;
     font-weight: 400;
     
+}
+.half_width_2{
+   
+    /* width: 50%; */
+    padding-left: 50px;
 }
