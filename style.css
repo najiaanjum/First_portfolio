@@ -10,9 +10,9 @@ h1{
     color:orange;
 }
 
-section{
+.section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .background_image{
@@ -21,10 +21,18 @@ section{
     background-size: cover;
 }
 .another_background_image{
-     background-image: url(images/background_image_2.jpg); 
+     background-image: url(images/background_2.jpg); 
      background-repeat: no-repeat;
     background-size: cover; 
 }
+.background_image_3{
+    background-image: url(images/background_3.jpg); 
+    background-repeat: no-repeat;
+   background-size: cover; 
+   width: 100%;
+   height: 700px;
+}
+
 .half_width {
    
     /* width: 50%; */
@@ -37,6 +45,14 @@ section{
     
    
 }
+ .half_width_section_2{ 
+    padding: 50px;
+} 
+.half_width_2{
+    display: flex;
+    justify-content: space-between ;
+    
+}
 .hire{
     text-decoration: none;
     background-image: linear-gradient(tomato, rgb(190, 93, 122));
@@ -46,8 +62,18 @@ section{
     font-weight: 400;
     
 }
-.half_width_2{
-   
-    /* width: 50%; */
-    padding-left: 50px;
+
+.box{
+    width: 30%;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 10px 10px 10px rgb(190, 93, 122);
+    padding: 30px;
+}
+footer p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
